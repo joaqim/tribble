@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/joaqim/tribble/src/geometry.cpp
+geometry.h
+/home/joaqim/tribble/src/geometry.h
+
+/home/joaqim/tribble/src/geometry.h
+GL/gl.h
+-
+

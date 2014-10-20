@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/joaqim/tribble/src/oglfirst.cpp
+GL/gl.h
+-
+GL/glu.h
+-
+GL/glut.h
+-
+cstdlib
+-
+

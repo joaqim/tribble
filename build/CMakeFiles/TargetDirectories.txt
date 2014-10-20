@@ -1,0 +1,4 @@
+/home/joaqim/tribble/build/src/CMakeFiles/geometry.dir
+/home/joaqim/tribble/build/src/CMakeFiles/oglfirst.dir
+/home/joaqim/tribble/build/src/CMakeFiles/pointers.dir
+/home/joaqim/tribble/build/src/CMakeFiles/test_geometry.dir
