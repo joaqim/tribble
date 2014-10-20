@@ -1,0 +1,34 @@
+<rml>
+<head>
+	<link type="text/template" href="template.rml"/>
+	<title>Datagrid Tutorial</title>
+	<style>
+		body
+		{
+			width: 400px;
+			height: 300px;
+
+			margin: auto;
+		}
+        
+        defender
+        {
+            display: block;
+            width: 64px;
+            height: 16px;
+
+            defender-decorator: defender;
+            defender-image-src: ../../../assets/high_scores_defender.tga;
+        }
+	</style>
+</head>
+<body template="window">
+	Insert high scores here.
+	<datagrid source="high_scores.scores">
+	<col fields="name" width="40%">Pilot:</col>
+	<col fields="colour" width="20%">Ship:</col>
+	<col fields="wave" width="20%">Wave:</col>
+	<col fields="score" width="20%">Score:</col>
+</datagrid>
+</body>
+</rml>
